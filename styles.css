@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #303030;
+
+}
+
+.green-active {
+    color: #04AA6D;
+
+}
+
+/*  NAVBAR  */
+
+.top-nav {
+    overflow: hidden;
+    background-color: #212121;
+
+
+}
+
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.search-input {
+    color: #04AA6D;
+    border: none;
+    background-color: #212121;
+    border-radius: 4px;
+    height: 54px;
+    width: 240px;
+    margin-left: 750px;
+    border-bottom: 3px solid #04AA6D;
+
+    box-shadow: none;
+    outline: none;
+
+}
+
+
+.search-input::placeholder {
+    color: #04AA6D;
+
+}
+
+.top-nav a:nth-last-child(1), .top-nav a:nth-last-child(2){
+    float: right;
+
+}
+
+.top-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+
+/*  END OF NAVBAR  */
+
+/*  VIDEO AND TEXT  */
+
+.video-N-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px 10px;
+    background-color: #424242;
+    height: 470px;
+    border-radius: 20px;
+    border-bottom: 3px solid #04AA6D;
+
+}
+
+.text {
+    padding-left: 20px;
+    padding-top: 80px;
+    width: 600px;
+
+}
+
+.text-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.text-content {
+
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: left;
+
+
+}
+
+.text-button {
+    background-color: #04AA6D;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+    color: white;
+    float: right;
+
+}
+
+.text-button:hover {
+    cursor: pointer;
+    color: #212121;
+
+}
+
+.video  {
+    padding-top: 10px;
+    height: 450px;
+    width: 840px;
+    border-radius: 20px;
+    margin-right: 15px;
+
+}
+
+.video-player {
+    width: 840px;
+    height: 450px;
+    border-radius: 20px;
+    margin-right: 15px;
+
+}
+
+/* END VIDEO AND TEXT*/
+
+
+/* COMPANIES ADS */
+
+
+.grey-container {
+    display: inline-block;
+    background-color: #424242;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+    padding-right: 59px;
+
+}
+
+
+.header1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 49px;
+    margin-top: 20px;
+
+}
+
+.ad-cards {
+
+}
+
+
+.company-ad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #424242;
+
+    width: 1146px;
+    display: inline-block;
+
+    border-bottom: 3px solid #04AA6D;
+
+
+    /*--------------------------------------*/
+
+
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-left: 30px;*/
+
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*border-radius: 20px;*/
+    /*background-color: #424242;*/
+
+    /*display: flex;*/
+    /*width: 75%;*/
+    /*gap: 20px;*/
+    /*flex-wrap: wrap;*/
+
+    /*border-bottom: 3px solid #04AA6D;*/
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+
+}
+
+.company-ad-card {
+    padding: 5px;
+    color: white;
+    background-color: #555555;
+    border-radius: 10px;
+    width: 190px;
+    border-bottom: 3px solid #04AA6D;
+    height: 185px;
+
+}
+
+.company-ad-card:hover {
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+.ads-cards {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-right: 10px;
+
+}
+
+.side-ad-card {
+    display: flex;
+    gap: 10px;
+    width: 330px;
+    background-color: #424242;
+    border-radius: 10px;
+    border-bottom: 3px solid #04AA6D;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.ad-img {
+    width: 40%;
+    height: 120px;
+    border-radius: 4px;
+
+}
+
+.ad-content {
+    color: white;
+
+}
+
+
+/* COMPANIES ADS END*/
+
+
+/*  NEWS CARDS  */
+
+.header2 {
+    margin-left: 10px;
+    padding-top: 20px;
+    display: inline-block;
+
+}
+
+.header2-span {
+    font-size: 26px;
+    color: #04AA6D;
+    margin-left: 30px;
+
+}
+
+.horizontal-line {
+    display: inline-block;
+    width: 930px;
+    height: 1px;
+    background-color: #04AA6D;
+
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* CARDS NEWS */
+
+.news-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 50px;
+    padding-top: 20px;
+
+
+
+}
+
+.top-news-card {
+
+}
+
+.news-card-b {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 300px;
+
+}
+
+
+/* SMALL CARDS */
+.small-news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 700px;
+
+    padding-left: 70px;
+
+
+}
+
+.news-card-s {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.news-card-s img {
+    width: 190px;
+    height: 120px;
+    border-radius: 2px;
+
+}
+
+.news-card-b img {
+    width: 500px;
+    height: 320px;
+    border-radius: 4px;
+
+}
+
+.news-card-b p {
+    margin: 10px 0 0 0;
+    max-width: 500px;
+    color: #dddddd;
+    font-size: 23px;
+
+}
+
+
+.news-cards-content {
+    font-size: 16px;
+    color: #04AA6D;
+    width: 170px;
+
+    margin: 7px;
+}
+
+
+
+/*
+TODO:
+ iconi
+*/
